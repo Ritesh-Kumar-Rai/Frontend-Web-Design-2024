@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* main css starts from here */
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    
+}
+
+nav{
+    height: 90px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav #part1{
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+}
+
+#part1 h3{
+    font-size: 17px;
+    border: 1.5px solid black;
+    padding: 3px 12px;
+    border-radius: 20px;
+}
+#part1 i{
+    font-size: 17px;
+    border: 1.5px solid black;
+    padding: 5px 7px;
+    border-radius: 50px;
+}
+
+#part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#part2 img{
+    margin-right: 5px;
+}
+
+
+nav h1{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+nav #part3{
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+}
+
+nav button{
+    font-size: 17px;
+    padding: 3px 12px;
+    border-radius: 20px;
+    border: 1.5px solid black;
+    font-weight: bold;
+    
+}
+
+#signup{
+    border: none;
+    background-color: rgb(230, 77, 22);
+    color: azure;
+}
+
+/* after navbar centered elements css starts from below */
+
+/* css for main Heading */
+#main>h1{
+    font-size: 170px;
+    text-transform: uppercase;
+
+    position: absolute;
+    top: 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+
+}
+
+/* CSS for Main Image Div Tag */
+
+.center-div-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.center-div-img img{
+        height: 430px;
+        width: 300px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 15px;
+}
+
+.center-div-img #center-btn-of-img{
+
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    width: 100%;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.center-div-img #center-btn-of-img i{
+    font-size: 20px;
+    background-color: aliceblue;
+    padding: 5px 7px;
+    border-radius: 50px;
+}
+.center-div-img #center-btn-of-img h2{
+    font-size: 20px;
+    font-weight: 900;
+    background-color: aliceblue;
+    padding: 5px 7px;
+    border-radius: 50px;
+}
+
+.center-div-img:nth-child(1){
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+.center-div-img:nth-child(2){
+    transform: translate(-50%,-50%) rotate(-15deg);
+}
+.center-div-img:nth-child(3){
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+.center-div-img:nth-child(4){
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+/* footer part css starts from below */
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 1%;
+    left: 0%;
+    
+}
+
+#footermain{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    
+}
+
+#footermain #footer-left-side{
+    padding: 0px 12px;
+}
+
+#footer-left-side span{
+    background-color: red;
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    border-radius: 12px;
+}
+
+#footer-center-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 20px;
+    border-top: 1px solid black;
+    width: 70px;
+    /* height: 100px; */
+   border-radius: 70px;
+   
+} 
+
+#footer-right-side{
+    padding: 2px 12px;
+}

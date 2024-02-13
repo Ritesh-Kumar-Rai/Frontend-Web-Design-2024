@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style the div Tag</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+
+    /* # is used to target any element by it's id name */
+
+    #box{
+        height: 40%;
+        width: 40%;
+        background-color: aquamarine;
+    }
+</style>
+<body>
+    <div id="box"></div>
+</body>
+</html>
+
+
+<!--
+There are many ways to write sizes in CSS, and they can be divided into two categories: 
+absolute units and relative units. 
+
+*Absolute units are fixed and do not depend on the context or the device. 
+*Relative units are flexible and adjust to the context or the device. 
+
+Some examples of absolute units are:
+
+- `px`: pixels, the smallest unit of the screen.
+- `cm`: centimeters, based on physical measurements.
+- `in`: inches, based on physical measurements.
+- `pt`: points, 1/72 of an inch, often used for print media.
+- `pc`: picas, 12 points, often used for print media.
+
+Some examples of relative units are:
+
+- `%`: percentage, relative to the parent element or the viewport.
+- `em`: relative to the font-size of the current element.
+- `rem`: relative to the font-size of the root element.
+- `vw`: relative to 1% of the width of the viewport.
+- `vh`: relative to 1% of the height of the viewport.
+- `vmin`: relative to 1% of the smaller dimension of the viewport.
+- `vmax`: relative to 1% of the larger dimension of the viewport.
+
+The differences between these units are mainly in how they scale and adapt to different
+devices and situations. Absolute units are more precise and consistent, 
+but they may not look good on different screen sizes or resolutions. 
+Relative units are more responsive and adaptable, but they may not be as accurate or 
+predictable. 
+
+-->

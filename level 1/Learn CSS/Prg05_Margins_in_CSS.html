@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margins in CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+
+        #rectangle{
+            height: 200px;
+            width: 300px;
+            background-color: brown;
+
+            /* set margin */
+            /* margin: 20px;  to set margin in all four sides */
+            margin-top: 20px;
+            margin-left: 40px;
+            margin-bottom: 200px;
+            /*[NOTE : margin does not place the element from one direction to another instead
+                it creates imaginery spaces outside the element.So, be aware of it ]  */
+
+        }
+    </style>
+</head>
+<body>
+    <div id="rectangle">
+
+    </div>
+    <h1>Anything</h1>
+</body>
+</html>
+<!-- 
+    The margin property in CSS is used to create space around an element, 
+    outside of any defined borders. You can set the margin for all four sides of an element, 
+    or for each side individually. You can also use different units to specify the size of the 
+    margin, such as pixels, percentages, ems, etc. 
+    The margin property can also be used to center an element horizontally by setting the value 
+    to auto.
+
+The syntax for the margin property is as follows:
+
+   * CSS SYNTAX :
+        {
+            margin: top right bottom left;
+        }
+
+*You can use one, two, three, or four values to set the margin. 
+
+-If you use one value, it applies to all four sides. 
+
+-If you use two values, the first one applies to the top and bottom, and the second one applies to 
+the right and left. 
+
+-If you use three values, the first one applies to the top, the second one applies to the right 
+and left, and the third one applies to the bottom. 
+
+-If you use four values, they apply to the top, right, bottom, and left in that order.
+ -->

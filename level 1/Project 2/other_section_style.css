@@ -1,0 +1,75 @@
+.small-section{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 55px;
+}
+
+.small-section h1{
+    font-size: 140px;
+    margin: 35px 0px;
+}
+
+.small-section .right-bar{
+    width: 40%;
+    height: auto;
+    padding-top: 20px;
+    margin-top: 40px;
+    
+}
+
+.small-section .right-bar p{
+    font-size: 20px;
+    color: rgba(30,33,33,.7);
+    font-weight: 540;
+    line-height: 140%;
+    margin-bottom: 40px;
+}
+
+.small-section .right-bar span{
+    font-size: 13px;
+    font-weight: 600;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+
+/* Camera Image */
+#main #camera-img{
+    background-color: orange;
+    height: 90%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad129d3885d86c115c7f_project-02.webp);
+    background-size: cover;
+    
+}
+
+/* Noise Image */
+#main #noise-img{
+    background-color: orange;
+    height: 90%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad1988b7ca338942d0b3_project-03.webp);
+    background-size: cover;
+    
+}
+
+/* Image center button css */
+#main #img-center-btn{
+    font-size: 45px;
+    height: 80px;
+    width: 80px;
+    color: aliceblue;
+    background-color: rgb(37,36,36);
+    border: none;
+    padding: 40px, 40px;
+    border-radius: 50px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding in CSS</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+
+    #rectangle{
+        height: 400px;
+        width: 700px;
+        background-color: blueviolet;
+
+        /* set padding */
+        /* padding: 20px; to set padding in four sides */
+        padding-top: 20px;
+        padding-left: 40px;
+        padding-bottom: 60px;
+    }
+</style>
+<body>
+    <div id="rectangle">
+        <h1>Heading Inside div tag</h1>
+    </div>
+</body>
+</html>
+<!-- 
+    The padding property in CSS is used to create space around an element’s content, inside of any defined borders. 
+    The padding affects the size and appearance of the element, as well as its position relative to other 
+    elements. 
+    You can use different units to specify the size of the padding, such as pixels, percentages, ems, etc. 
+    You can also use the box-sizing property to control how the padding affects the element’s width and height12
+
+The syntax for the padding property is as follows:
+
+    *CSS :
+        {
+            padding: top right bottom left;
+        }
+
+*You can use one, two, three, or four values to set the padding. 
+
+-If you use one value, it applies to all four sides. 
+
+-If you use two values, the first one applies to the top and bottom, and the second one applies to the right and left. 
+
+-If you use three values, the first one applies to the top, the second one applies to the right and left, 
+    and the third one applies to the bottom. 
+
+-If you use four values, they apply to the top, right, bottom, and left in that order.
+ -->

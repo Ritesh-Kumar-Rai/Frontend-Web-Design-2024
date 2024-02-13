@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Inputs</title>
+</head>
+<body>
+    
+    <!-- Form tag used for taking inputs from user e.g: Login/Register Page -->
+    <!-- A form is useful for collecting and sending data to a server or a database -->
+    <form>
+
+        <!-- text input -->
+        <label for="naam">Name :</label>
+        <input name="name" id="naam" type="text" placeholder="enter name">
+        <br>
+        <!-- email input -->
+        <label for="emal">Email :</label>
+        <input type="email" id="emal" placeholder="enter email">
+        <br>
+        <!-- password input -->
+        <label for="pass">Password</label>
+        <input type="password" placeholder="enter password" id="pass">
+        <br>
+        <!-- date input -->
+        Select Date : <input type="date" name="" id="">
+        <br>
+        <!-- checkbox -->
+        <label for="student">Student</label>
+        <input type="checkbox" id="student" value="student">
+        <br>
+
+        <!-- radio buttons -->
+        <input type="radio" name="gender" >Male
+        <input type="radio" name="gender" >Female
+        <input type="radio" name="gender" >Others
+
+        <br>
+
+        <!-- range -->
+        <input type="range" name="" id="">
+        <br>
+
+        <!-- color -->
+        <input type="color">
+        <br>
+
+        <!-- file -->
+        <input type="file">
+        <br>
+        <!-- submit and reset input button -->
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+    </form>
+
+    <!--
+        The <form> tag has several attributes that modify its behavior or appearance. 
+            
+    Here are some of the most common ones:
+
+    1. action: specifies where to send the form data when the form is submitted. The value   can be a URL or a file name.
+
+    2. method: specifies the HTTP method to use when sending form data. The value can be either get or post. get appends the form data to the URL, while post sends the form data inside the body of the request.
+
+    3. enctype: specifies how the form data should be encoded when submitting it to the server. The value can be one of the following: application/x-www-form-urlencoded (the default), multipart/form-data (for file uploads), or text/plain (for debugging purposes).
+
+    4. target: specifies where to display the response that is received after submitting the form. The value can be one of the following: _blank (a new window or tab), _self (the current window), _parent (the parent frame), _top (the full body of the window), or a frame name.
+
+    5. autocomplete: specifies whether a form should have autocomplete on or off. The value can be either on or off. Autocomplete allows the browser to automatically fill in values based on previous user input.
+
+    6. novalidate: specifies that the form should not be validated when submitted. The value can be novalidate or omitted. Validation checks if the form data meets certain criteria, such as required fields, data types, patterns, etc.
+    -->
+
+
+</body>
+</html>

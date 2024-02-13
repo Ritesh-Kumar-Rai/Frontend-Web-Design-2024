@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;300&display=swap');
+
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 55px;
+}
+
+/* navbar css */
+nav{
+    position: fixed;
+    top: 0px;
+    
+    width: 100%;
+    padding: 20px 40px;
+    padding-top: 28px;
+    padding-bottom: 0px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    /* margin-bottom: 0; */
+    
+
+}
+
+nav h3{
+    margin-top: 5px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(28, 27, 27);
+    padding: 16px 25px;
+    border-radius: 40px;
+    font-weight: 600;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/* intro css */
+#intro{
+    height: 40%;
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px 55px;
+    /* background-color:blanchedalmond; */
+}
+
+#intro h1{
+    margin-top: 0px;
+    font-size: 140px;
+    line-height: 140px;
+    letter-spacing: -3px;
+}
+
+#intro #intro-subdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 10px 0px;
+    /* background-color: aquamarine; */
+   
+}
+
+#intro-subdiv h3{
+    font-size: 33px;
+    font-weight: 600;
+}
+
+/* image css */
+#main #hero-img{
+    background-color: orange;
+    height: 90%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero.webp);
+    background-size: cover;
+}
+
+/* about css */
+#about{
+    height: 58%;
+    width: 100%;
+    display: flex;
+    padding: 40px 45px;
+    margin-top: 30px;
+    
+}
+/* left side */
+#about #about-part1{
+    padding: 37px, 47px;
+    width: 70%;
+    height: 100%;
+    border-right: 2px solid black;
+}
+#about #about-part1 h2{
+    font-size: 85px;
+    font-weight: 600;
+    line-height: 90px;
+}
+/* right side */
+#about #about-part2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    padding: 37px, 55px;
+}
+#about #about-part2 h3{
+    font-size: 35px;
+    font-weight: 600;
+}
+#about #about-part2 #icons{
+    font-size: 30px;
+    
+}
+ #icons i{
+    background-color: black;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 30px;
+
+}
+
+/* main hr css */
+
+hr{
+    border: 1.5px solid black;
+   
+    width: auto;
+    margin: 30px 40px;
+}
+
+/* what i do section css */
+#whatIdo{
+    margin-top: 30px;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    
+    
+}
+
+/* left part */
+#whatIdo #left{
+    height: auto;
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    border-right: 2px solid black;
+    
+}
+
+#whatIdo #left h3{
+    font-size: 35px;
+    font-weight: 600;
+}
+#whatIdo #left i{
+    font-size: 40px;
+    margin-right: 50px;
+}
+
+/* right part */
+
+#whatIdo #right{
+    height: auto;
+    width: 63%;
+}
+
+#whatIdo #right hr{
+    width: 95%;
+    border: 1.5px solid black;
+    margin-left: 50px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+#right .rightpart{
+    margin-left: 50px;
+}
+
+#right .rightpart{
+    display: flex;
+    justify-content: space-between;
+}
+
+#right .rightpart .elem:nth-child(1){
+    width: 100%;
+    border-right: 2px solid black;
+}
+
+#right .rightpart h3{
+    font-size: 44px;
+}
+#right .rightpart .elem:nth-child(1) p{
+    font-size: 20px;
+    color: rgba(30,33,33,.7);
+    font-weight: 540;
+    padding-top: 10px;
+    padding-right: 40px;
+    line-height: 170%;
+
+}
+
+#right .rightpart .elem:nth-child(2){
+    width: 100%;
+    margin-left: 50px;
+}
+
+#right .rightpart .elem:nth-child(2) p{
+    font-size: 20px;
+    color: rgba(30,33,33,.7);
+    font-weight: 540;
+    padding-top: 10px;
+    padding-right: 35px;
+    line-height: 170%;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+#whatIdo #left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+   
+    border-right: 2px solid black;
+    
+}
+#whatIdo #left h3{
+    font-size: 40px;
+}
+#whatIdo #left i{
+    font-size: 40px;
+    margin-right: 60px;
+    margin-left: 0;
+}
+#whatIdo #right{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px,20px;
+    background-color: aqua;
+}
+
+#whatIdo #right .rightpart{
+    
+    border-bottom: 2px solid black;
+}
+
+#right .row2{
+    margin-left: 30px;
+    margin-bottom: 50px;
+    border-right: 2px solid black;
+}
+#right .row2 h3{
+    font-size: 40px;  
+    padding: 20px, 20px;  
+}
+#right .row2 p{
+    color: grey;
+    font-size: 15px;
+    padding: 29px,29px;
+} */

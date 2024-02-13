@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+
+        #div{
+            height: 100%;
+            width: 100%;
+            background-color: aqua;
+            /* to align all child tags as one line, i will make parent as display flex */
+            display: flex;
+
+            /* align-items align items in a y- axis(top-center-down) */
+            /* align-items: flex-start; */
+            /* align-items: flex-end; */
+            align-items: center;
+
+            /* justify-content align items in a x-axis(left-center-right) */
+            justify-content: flex-start;
+            /* justify-content: flex-end; */
+            justify-content: center;
+            justify-content: space-between; /* make space between siblings*/
+            justify-content: space-around; /* make space between and around (inner and outer space)*/
+            justify-content: space-evenly; /** make same space in both sides/
+        }
+        #child1{
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+        }
+        #child2{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(46, 165, 42);
+        }
+        #child3{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(4, 25, 184);
+        }
+    </style>
+</head>
+<body onload="alert('Problem Statement: align all child div tags in one line horizontally')">
+    <div id="div">
+        <div id="child1"></div>
+        <div id="child2"></div>
+        <div id="child3"></div>
+    </div>
+</body>
+</html>

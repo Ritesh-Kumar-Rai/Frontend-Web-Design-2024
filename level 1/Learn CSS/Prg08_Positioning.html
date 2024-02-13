@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning in CSS</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+
+    #box{
+        height: 200px;
+        width: 300px;
+        border-radius: 4px;
+        background-color: purple;
+
+        position: relative;
+        top:20%;
+        left: 50%;
+
+        /* how to put at exact center */
+        transform: translate(-50%,-50%);
+    }
+
+    h1{
+        color: purple;
+        font-size: 42px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+</style>
+<body>
+
+<div id="box"></div>
+
+<h1>This is Center</h1>
+
+
+
+    <a href="https://www.codewithharry.com/tutorial/css-positioning/">Learn more about css positioning</a>
+</body>
+</html>

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@200;300,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'PT Sans', sans-serif; */
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    margin: 20px 0px;
+    width: 100%;
+    height: 100%;
+    padding: 60px 100px;
+}
+
+#main h1{
+    font-size: 90px;
+    text-align: center;
+}
+
+#main p{
+    color: rgb(88, 88, 88);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* Pricing Section CSS */
+#pricing-section{
+    display: flex;
+    justify-content: center;
+    margin: 10% 10px;
+    height: auto;
+    width: auto;
+}
+
+/* css for cards */
+#pricing-section .cards{
+    padding: 30px 20px;
+    /* background-color: aqua; */
+    height: 20%;
+    width: 25%;
+    border: 1px solid rgb(205, 194, 194);
+    border-radius: 5px;
+}
+
+#pricing-section .cards .pricing{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#pricing-section .cards .pricing .pack{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(179, 175, 175);
+}
+#pricing-section .cards .pricing .price{
+    font-size: 40px;
+    font-weight: 700;
+}
+#pricing-section .cards .pricing .per-month{
+    font-weight: 600;
+}
+
+/* css for lists */
+#pricing-section .cards .links{
+    margin: 20px 0px;
+    padding: 20px 5px;
+    border-top: 2px solid rgb(183, 179, 179);
+}
+
+#pricing-section .cards .links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* background-color: brown; */
+    list-style: none;
+    font-size:medium;
+    color: rgb(45, 44, 44);
+}
+
+
+/* css for button */
+#pricing-section .cards .plan button{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    padding: 10px 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+
+
+/* CSS for Center Card for Some Modification */
+
+#pricing-section #center-card{
+    background-color: black;
+    color: white;
+    position: relative;
+    top : -20px
+}
+#pricing-section #center-card .pricing{
+    margin-top: -40px;
+}
+
+#pricing-section #center-card #popular{
+    position: relative;
+    left: 18%;
+    top: -55px;
+    background-color: white;
+    padding: 10px 10px;
+    width: 190px;
+    border-radius: 50px;
+    
+}
+
+#pricing-section #center-card #popular div{
+    padding: 15px 15px;
+    background-color: black;
+    color: white;
+    width: auto;
+    border-radius: 25px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+#pricing-section #center-card .plan{
+    margin-bottom: 20px;
+}
+
+
+#pricing-section #center-card .links{
+
+    border-top: 2px solid rgb(183, 21, 21);
+}
+#pricing-section #center-card .links ul{
+    
+    color: white;
+}
