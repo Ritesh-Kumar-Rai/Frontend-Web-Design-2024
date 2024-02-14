@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 30%;
+    width: 40%;
+    background-color: rgb(30, 30, 9);
+    padding: 1%;
+    box-shadow: 0 30px 18px 20px rgba(0, 0, 0, 0.2), 0 60px 40px 30px rgba(0, 0, 0, 0.19);
+}
+
+#card code{
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.green-dark{
+    color: rgb(11, 155, 11);
+}
+
+.green{
+    color: greenyellow;
+}
+
+.blue{
+    color: rgb(41, 149, 192);
+}
+
+.orange{
+    color: orange;
+}
+
+.red{
+    color: red;
+}
+.white{
+    color: white;
+}
+
+
+#card #profile-section{
+    margin-bottom: -30px;
+    padding: 1px 10px;
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+#card #profile-section #img{
+    background-image: url(https://scontent.fbdq1-1.fna.fbcdn.net/v/t39.30808-6/315886990_637268811415165_945297722588561825_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=r854Ywni_ZcAX-orbyW&_nc_ht=scontent.fbdq1-1.fna&oh=00_AfDvu0PKNUX7Xlb_dOJuJ7tyWVgJihFF1nwFpoY48FEG9A&oe=65D1CEFD);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
