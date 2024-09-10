@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usability Hub -Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_queries.css">
+</head>
+<body>
+    <main>
+
+        <!-- Top Banner Section -->
+        <div class="top-banner">
+            <div class="top-banner-text mini-text-bold container">
+                🥳New to Usability Hub: Open and Closed card sorting
+            </div>
+        </div>
+
+        <!-- Navbar Section -->
+        <nav>
+            <div class="nav-section container flex">
+                <div class="company-logo">
+                    <img src="/assets/asset 1.png" alt="company-logo">
+                </div>
+                <div class="link-lists" id="nav-toggle-link">
+                    <ul class="flex">
+                        <li><a class="hover-link" href="#">Products</a></li>
+                        <li><a class="hover-link" href="#">Customers</a></li>
+                        <li><a class="hover-link" href="#">Pricing</a></li>
+                        <li><a class="hover-link" href="#">Resources</a></li>
+                        <li><a class="btn-secondary" href="#">Sign In</a></li>
+                        <li><a class="btn-primary" href="#">Sign Up</a></li>
+                    </ul>
+                </div>
+                    <i class="fa-solid fa-bars navbar-toggler" onclick="toggle_navlinks()"></i>
+                    <!-- <i class="fa-solid fa-xmark navbar-toggler" onclick="toggle_navlinks()"></i> -->
+            </div>
+        </nav>
+
+
+        <!-- Header Section -->
+        <header>
+            <div class="container header-section flex">
+                <div class="header-left">
+                    <h1>Design confidently.</h1>
+                    <p>UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by validating them with real users.</p>
+                    <a class="btn-primary get-started-btn" href="#">Get Started</a>
+                </div>
+                <div class="header-right">
+                    <img src="/assets/asset 2.png" alt="hero-image">
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Companies Section -->
+        <section class="companies-section">
+            <div id="company-section-body" class="container">
+                <h3>The world's best companies rely on UsabilityHub to make better design decisions.</h3>
+                <div class="company-lists flex">
+                     <a href="#"><img src="/assets/asset 3.png" alt="amazon-company-logo"></a>
+                     <a href="#"><img src="/assets/asset 4.png" alt="google-company-logo"></a>
+                     <a href="#"><img src="/assets/asset 5.png" alt="taskrabbit-company-logo"></a>
+                     <a href="#"><img src="/assets/asset 6.png" alt="airtable-company-logo"></a>
+                     <a href="#"><img src="/assets/asset 7.png" alt="box-company-logo"></a>
+                     <a href="#"><img src="/assets/asset 8.svg" alt="godaddy-company-logo"></a>
+                     <a href="#"><img src="/assets/asset 9.png" alt="asana-company-logo"></a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="container">
+                <div class="features-heading">
+                    <h2>Your user research Swiss Army knife</h2>
+                    <a class="btn-secondary" href="#">See all features <i class="fa-solid fa-right-long"></i> </a>
+                </div>
+                <div class="features-cards flex">
+                    <!-- card 1 -->
+                    <div class="features-single-card">
+                        <img src="/assets/asset 11.svg" alt="card sorting.svg">
+                        <h2>Card sorting</h2>
+                        <p>Discover how people group and label information.</p>
+                        <a class="btn-secondary" href="#">Learn more <i class="fa-solid fa-right-long"></i></a>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="features-single-card">
+                        <img src="/assets/asset 13.svg" alt="Prototype.svg">
+                        <h2>Prototype tests</h2>
+                        <p>Discover how people navigate your Figma prototypes.</p>
+                        <a class="btn-secondary" href="#">Learn more <i class="fa-solid fa-right-long"></i></a>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="features-single-card">
+                        <img src="/assets/asset 14.svg" alt="test-interaction.svg">
+                        <h2>First click tests</h2>
+                        <p>Test interaction with first click and navigation tests.</p>
+                        <a class="btn-secondary" href="#">Learn more <i class="fa-solid fa-right-long"></i></a>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="features-single-card">
+                        <img src="/assets/asset 15.svg" alt="design-survey.svg">
+                        <h2>Design surveys</h2>
+                        <p>Get feedback on images, videos or audio files.</p>
+                        <a class="btn-secondary" href="#">Learn more <i class="fa-solid fa-right-long"></i></a>
+                    </div>
+                    <!-- card 5 -->
+                    <div class="features-single-card">
+                        <img src="/assets/asset 16.svg" alt="prefer-design.svg">
+                        <h2>Preference tests</h2>
+                        <p>Find out which designs users prefer and why.</p>
+                        <a class="btn-secondary" href="#">Learn more <i class="fa-solid fa-right-long"></i></a>
+                    </div>
+                    <!-- card 6 -->
+                    <div class="features-single-card">
+                        <img src="/assets/asset 17.svg" alt="test.svg">
+                        <h2>Five second tests</h2>
+                        <p>Test comprehensibility by measuring first impressions.</p>
+                        <a class="btn-secondary" href="#">Learn more <i class="fa-solid fa-right-long"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Big Features Section 1 -->
+        <section class="big-features-section">
+            <div class="big-features-section-body container flex">
+                <div class="big-feature-left-part">
+                    <img src="/assets/asset 18.png" alt="">
+                </div>
+                <div class="big-feature-right-part">
+                    <h3>Effortless validation for</h3>
+                    <h2>Design professionals</h2>
+                    <p>Test interfaces, interaction flows, iconography and more, 
+                        to help you create intuitive and delightful experiences for your users</p>
+                </div>
+            </div>
+        </section>
+        <!-- Big Features Section 2 -->
+        <section class="big-features-section">
+            <div class="big-features-section-body container flex" id="second-big-features-body">
+                <div class="big-feature-left-part">
+                    <img src="/assets/asset 21.png" alt="">
+                </div>
+                <div class="big-feature-right-part">
+                    <h3>Great engineering comes from</h3>
+                    <h2>Best Building Stacks</h2>
+                    <p>We have great technology Stacks combination to build Complete Efficient, Optimized Apps</p>
+                </div>
+            </div>
+        </section>
+        <!-- Big Features Section 3 -->
+        <section class="big-features-section">
+            <div class="big-features-section-body container flex">
+                <div class="big-feature-left-part">
+                    <img src="/assets/asset 24.png" alt="">
+                </div>
+                <div class="big-feature-right-part">
+                    <h3>Robust system using</h3>
+                    <h2>System Design</h2>
+                    <p>Our best in class System Design principals, that help building re-usable 
+                        secure components of powerful codebase to provide robust, secure, flexible, customizable Apps 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Examples Section -->
+        <section class="examples-section">
+            <div class="examples-heading container">
+                <h1>One platform, endless possibilities</h1>
+                <a class="btn-secondary" href="#">See more examples <i class="fa-solid fa-right-long"></i></a>
+            </div>
+            <div class="container examples-body flex">
+                    <!-- card 1 -->
+                    <div class="examples-card flex">
+                        <h3>Can users complete a task in my software interface?</h3>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="examples-card flex">
+                        <h3>Can users find important pages on my website?</h3>
+                    </div>     
+                    <!-- card 3 -->
+                    <div class="examples-card flex">
+                        <h3>Is my website's intended audience clear?</h3>
+                    </div>      
+                    <!-- card 4 -->
+                    <div class="examples-card flex">
+                        <h3>Do visitors understand what a page is about?</h3>
+                    </div>        
+            </div>
+        </section>
+
+        <!-- Get started section -->
+        <section class="get-started-section">
+            <div class="container get-started-body">
+                    <h2>Start testing today</h2>
+                    <p>Take the guesswork out of design decisions</p>
+                    <a class="btn-primary get-started-btn" href="#">Get Started</a>
+            </div>
+        </section>
+
+        <!-- footer section -->
+        <footer>
+            <div class="container footer-body flex">
+                <div class="company-logo">
+                    <img src="/assets/asset 1.png" alt="">
+                </div>
+                <div class="link-column flex">
+                    <h2>Products</h2>
+                    <a class="hover-link" href="#">Overview</a>
+                    <a class="hover-link" href="#">Pricing</a>
+                    <a class="hover-link" href="#">UsabilityHub panel</a>
+                    <a class="hover-link" href="#">Customers</a>
+                    <a class="hover-link" href="#">Satus page</a>
+                </div>
+                <div class="link-column flex">
+                    <h2>Company</h2>
+                    <a class="hover-link" href="#">About us</a>
+                    <a class="hover-link" href="#">Careers</a>
+                    <a class="hover-link" href="#">Contact us</a>
+                    <a class="hover-link" href="#">Privacy policy</a>
+                    <a class="hover-link" href="#">Terms & conditions</a>
+                </div>
+                <div class="link-column flex">
+                    <h2>Resources</h2>
+                    <a class="hover-link" href="#">Resources Hub</a>
+                    <a class="hover-link" href="#">Blog</a>
+                    <a class="hover-link" href="#">Guides</a>
+                    <a class="hover-link" href="#">Help center</a>
+                    <a class="hover-link" href="#">Templates</a>
+                </div>
+            </div>
+        </footer>
+
+        <section class="sub-footer">
+            <div class="container sub-footer-body flex">
+                    <a class="hover-link" href="#">Ritesh Kumar Rai</a>
+                    <a class="hover-link" href="#">@2024</a>
+                    <a class="hover-link" href="#">HTML CSS JavaScript</a>
+                    <a class="hover-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="hover-link" href="#"><i class="fa-brands fa-github"></i></a>
+                    <a class="hover-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </section>
+
+
+        
+    </main>
+
+    <!-- JavaScript Code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.js" integrity="sha512-MXWlk6UOVfE/OdjLyby2zlldm3K36O43PyJmAmXfib7wWEUkediNdwRx4rrvM1GtP1yO+sDLCkvXV6o03sQHmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    
+    <script>
+
+        function toggle_navlinks(){
+            document.getElementById("nav-toggle-link").classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
