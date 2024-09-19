@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_queries.css">
+
+</head>
+<body>
+      
+    <main>
+
+        <!-- Navbar -->
+        <nav>
+            <div class="ritesh-company-logo">
+                <i class="ri-stack-fill"></i>
+                <h3>SaaS</h3>
+            </div>
+            <input type="checkbox" name="" id="isNavbarToggled" title="isNavbarToggled">
+            <div id="menu-list">
+                <div  id="navbar-close-div">
+                    <label id="navbarCloseToggle" for="isNavbarToggled"><i class="ri-close-large-line"></i></label>
+                </div>
+                <ul>
+                    <li>Free Landing Pages</li>
+                    <li>Features</li>
+                    <li>Services</li>
+                    <li>Pricing</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div id="nav-right-side">
+                <a href="#">Browse Assets</a>
+                <button>Clone The Demo</button>
+            </div>
+            <label id="navbarOpenToggle" for="isNavbarToggled"><i class="ri-menu-line"></i></label>
+        </nav>
+
+        <!-- First Component -->
+        <div id="live-chat-support">
+            <div>
+                <h1>Live chat support for your customers.</h1>
+                <p>Create custom landing pages with Shades that convert more visitors than any website—no coding required.</p>
+                <form action="#" method="get" id="live-chat-support-form">
+                    <div class="form-input-tags">
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                        <input type="submit" value="Get Started">
+                    </div>
+                    <p>Already using SaaS? <a href="#">Sign In</a></p>
+                </form>
+                
+            </div>
+            <div>
+                <img src="https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f0a3b105dca8030ec5e50ee_asset%201.png" alt="">
+            </div>
+        </div>
+    
+
+        <!-- Second Component -->
+        <div id="mark-your-next-step">
+            <img src="https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f0a3b0fe32edc743e8e1bc6_asset%202.svg" alt="">
+            <div id="mark-your-next-step2">
+                <h1>Mark your next step</h1>
+                <div id="cards">
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Third Component -->
+        <div id="third-component">
+            <div>
+                <img src="https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f0a3b1040228a02efb5ed12_asset%203.png" alt="">
+            </div>
+            <div>
+                <h1>Response on a chat wherever you are</h1>
+                <p>Create custom landing pages with Shades that convert more visitors than any website, no coding required.</p>
+                <a href="#">Learn more ></a>
+            </div>
+        </div>
+
+        <!-- Forth Component -->
+        <div id="forth-component">
+            <div>
+                <h1>Never miss a thing</h1>
+                <p>Event is not like most tech conferences. We want our presentations to engage the audience, spark discussion and inspire new ideas</p>
+                <ul>
+                    <li><i class="ri-check-line"></i>Unlimited design possibility</li>
+                    <li><i class="ri-check-line"></i>Completely responsive</li>
+                    <li><i class="ri-check-line"></i>Easy to customize</li>
+                </ul>
+            </div>
+            <div>
+                <img src="https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f0a3b10ba4f26f31b51be6c_asset%204.png" alt="">
+            </div>
+        </div>
+        
+
+        <!-- Fifth Component -->
+        <div id="fifth-component">
+            <div>
+                <img src="https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f0a3b1159b2c26de894f2c7_asset%206.png" alt="">
+            </div>
+            <div>
+                <h1>Increase Customer Support Productivity</h1>
+                <p>Event is not like most tech conferences. We want our presentations to engage the audience, spark discussion and inspire new ideas.</p>
+                <hr>
+                <p>Interested to see how it works? Schedule a free demo to get to learn everything you need to know.</p>
+                <button type="button">Schedule A Demo</button>
+            </div>
+        </div>
+
+        <!-- Sixth Component -->
+        <div id="pricing-section">
+            <!-- blank div for image -->
+            <div id="pricing-section-img"></div>
+            <div class="pricing-sec-background-col-div">
+                <div id="heading-of-pricing-section" class="pricing-sec-background-col-div">
+                    <h1>Pricing that suits you better</h1>
+                    <p>We designed and tested prototypes that helped identify pain points in the account creation process. Together, we shaped the new standard.</p>
+                </div>
+                <div id="pricing-cards">
+                    <div class="pricing-card">
+                        <div> <h4>basic</h4></div>
+                        <h2><span>₹</span>1500<span>/month</span></h2>
+                        <p>Good for small business launching their products less then once a year</p>
+                        <ul>
+                            <li><i class="ri-check-line"></i>Unlimited Blocks</li>
+                            <li><i class="ri-check-line"></i>5GB Cloud Storages</li>
+                            <li class="strike-features"><i class="ri-check-line"></i><strike>Custom Domain Names</strike></li>
+                            <li class="strike-features"><i class="ri-check-line"></i><strike>Unlimited Emails</strike></li>
+                        </ul>
+                        <button class="pricing-trail-btn" onclick="sayMe()">Start free trail</button>
+                        <p>No credit card required</p>
+                    </div>
+
+                    <!-- 2nd card -->
+                    <div class="pricing-card">
+                        <div> <h4>pro</h4> <button>Popular</button></div>
+                        <h2><span>₹</span>2500<span>/month</span></h2>
+                        <p>Good for small business launching their products less then once a year</p>
+                        <ul>
+                            <li><i class="ri-check-line"></i>Unlimited Blocks</li>
+                            <li><i class="ri-check-line"></i>5GB Cloud Storages</li>
+                            <li><i class="ri-check-line"></i>Custom Domain Names</li>
+                            <li class="strike-features"><i class="ri-check-line"></i><strike>Unlimited Emails</strike></li>
+                        </ul>
+                        <button class="pricing-trail-btn" onclick="sayMe()">Start free trail</button>
+                        <p>No credit card required</p>
+                    </div>
+
+                    <!-- 3rd card -->
+                    <div class="pricing-card">
+                        <div> <h4>premium</h4></div>
+                        <h2><span>₹</span>5000<span>/month</span></h2>
+                        <p>Good for small business launching their products less then once a year</p>
+                        <ul>
+                            <li><i class="ri-check-line"></i>Unlimited Blocks</li>
+                            <li><i class="ri-check-line"></i>5GB Cloud Storages</li>
+                            <li><i class="ri-check-line"></i>Custom Domain Names</li>
+                            <li><i class="ri-check-line"></i>Unlimited Emails</li>
+                        </ul>
+                        <button class="pricing-trail-btn" onclick="sayMe()">Start free trail</button>
+                        <p>No credit card required</p>
+                    </div>
+                    <!-- card over -->
+                    
+                </div> <!-- cards div tag-->
+                
+                <!-- Last pricing section text content -->
+                <div id="last-of-pricing">
+
+                    <p>Still confused? <a href="#">Check out feature list</a></p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Seventh Component -->
+        <div id="news-letter">
+            <div>
+                <h1>Join our rich newsletter now</h1>
+                <p>We designed and tested prototypes that helped identify pain points in the account creation process. Together, we shaped the new standard.</p>
+            </div>
+            <div class="news-letter-second-part">
+
+                <form action="#" method="get" id="news-letter-form">
+                    <div class="form-input-tags">
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                        <input type="submit" value="Get Started">
+                    </div>
+                    <p>Your data is protected. We never spam in your inbox</p>
+                </form>
+            </div>
+        </div>
+
+
+
+
+        <!-- Footer Component -->
+        <footer>
+            <div>
+
+                <div id="company-foot">
+                    <div class="ritesh-company-logo">
+                        <i class="ri-stack-fill"></i>
+                        <h3>SaaS</h3>
+                    </div>
+                    <p>Big, small, online, offline, local. Size doesn't matter. We work on diverse projects for top brands as well as for cool startups.</p>
+                    <div id="links-icon">
+                        <i class="ri-instagram-fill"></i>
+                        <i class="ri-twitter-fill"></i>
+                        <i class="ri-linkedin-fill"></i>
+                    </div>
+                </div>
+                <div id="help-menu">
+                    <h5>Help Menu</h5>
+                    <ul>
+                        <li>About</li>
+                        <li>Features</li>
+                        <li>Works</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div id="support">
+                    <h5>Support</h5>
+                    <ul>
+                        <li>Contact</li>
+                        <li>Help & Support</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                    </ul>
+                </div>
+                <div id="products">
+                    <h5>Products</h5>
+                    <ul>
+                        <li>SaaS Pro</li>
+                        <li>Essential Blocks</li>
+                        <li>SaaS Dashboard</li>
+                        <li>vApp Landing Page</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="author-name">
+                <h3>Build by <span class="dev-name">R</span>ITESH <span class="dev-name">K</span>UMAR <span class="dev-name">R</span>AI</h3>
+            </div>
+        </footer>
+
+
+
+
+    </main>
+
+    <script>
+        
+        // Changing the logo last character color
+
+        function change_logo_last_color(){
+            
+            const logos = document.querySelectorAll(".ritesh-company-logo h3");
+            logos.forEach(logo => {
+
+                
+                
+                // let logo_html = document.querySelector(".ritesh-company-logo h3");
+                let logo_html = logo;
+                let logo_text = logo_html.textContent;
+                let logo_last_char = logo_text.charAt(logo_text.length-1).fontcolor("#1290a4");
+                console.log(logo_last_char);
+                let arr = logo_text.split("");
+                console.log(arr);
+                let text = "";
+
+                arr.forEach((char,index) => {
+                    (index === logo_text.length-1)? text += logo_last_char :text += char;
+                });
+            
+            console.log(text);
+            logo_html.innerHTML = text;
+            
+        });
+
+
+            
+        }
+        change_logo_last_color();
+
+
+        // handle submit
+        const form1 = document.querySelector("#live-chat-support-form");
+        form1.addEventListener("submit",(e)=> handleFormSubmission(form1.id,e));
+        const form2 = document.querySelector("#news-letter-form");
+        form2.addEventListener("submit", (e) => handleFormSubmission(form2.id,e));
+
+
+        function handleFormSubmission(form_id,e){
+                    
+                    console.log("outside loop ",e.target);
+                    console.log("outside loop",e.target.id);
+                    e.preventDefault();
+            if(form_id === e.target.id){
+
+                document.querySelector(`#${form_id} .form-input-tags input[type='submit']`).value = "please wait...";
+                
+                    const email = document.querySelector(`#${form_id} .form-input-tags input[type='email']`).value;
+                    console.log(email);
+                    
+                    setTimeout(()=>{
+                        
+                        let form_input_selector = document.querySelector(`#${form_id} .form-input-tags`);
+                        
+                        form_input_selector.style.width = "90%";
+                        form_input_selector.style.padding = "18px 10px";
+                        form_input_selector.style.backgroundColor = "#dddd";
+                        form_input_selector.style.display = "flex";
+                        form_input_selector.style.alignItems = "flex-start";
+                        form_input_selector.style.justifyContent = "center";
+                        form_input_selector.style.borderRadius = "3px";
+                        
+                        if(email.length < 5){
+                            form_input_selector.innerHTML = `<span style="font-size:15px; color:red; font-weight:400">Oops!😵Something went wrong while submitting the form.</span>`;
+                        }else{
+                            form_input_selector.innerHTML = `<span style="font-size:15px">Thank you! 🥳Your submission has been received!</span>`;
+                        }
+                    },3000);
+            }            
+       }
+       
+
+
+       
+
+
+
+
+
+
+
+
+        // Displaying Cards
+        function displayCards(){
+            const cardInfo = [
+                {
+                    title : "Targeted Marketing",
+                    image_url : "https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f6bb8e8bea55c028be782dd_feature-icon-1.svg"
+                },
+                {
+                    title : "Customer Satisfaction",
+                    image_url : "https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f6bb8ea9c7e70f665259c5e_feature-icon-2.svg"
+                },
+                {
+                    title : "Custom Preferences",
+                    image_url : "https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f6bb8ea80693e1eb5e07448_feature-icon-3.svg"
+                },
+            ];
+
+            // foreach loop
+            let cards_list = "";
+            cardInfo.forEach((obj, index)=>{
+                cards_list +=`
+                <div class="card">
+                        <div>
+                            <img src="${obj.image_url}" alt="">
+                        </div>
+                        <h2>${obj.title}</h2>
+                        <p>We design and develop world's class app for internal team or a millions of customers</p>
+                        <a href="${index}">Learn more ></a>
+                </div>
+                `;
+            });
+            document.querySelector("#cards").innerHTML = cards_list;
+        }
+        displayCards();
+
+
+
+        function sayMe(){
+            alert("I am Ritesh Kumar Rai");
+           } 
+    </script>
+</body>
+
+<!-- TODO -->
+<!-- reference link : https://shade-sass-landing.webflow.io/# -->
+
+</html>

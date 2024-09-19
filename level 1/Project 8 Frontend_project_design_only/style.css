@@ -1,0 +1,712 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* styling to navbar */
+nav{
+    height: 80px;
+    max-width: 1647px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 300px;
+    /* font-size: 20px; */
+}
+
+nav #navbarOpenToggle{
+    display: none;
+    font-size: 2rem;
+    font-weight: 500;
+    border: 2px solid black;
+    padding: 1px 4px;
+    border-radius: 5px;
+    transition: 400ms ease-in-out;
+}
+nav #navbarOpenToggle:hover{
+    box-shadow: 5px 5px 6px gray;
+}
+
+nav #isNavbarToggled{
+    display: none;
+}
+
+.ritesh-company-logo{
+    display: flex;
+    font-size: 25px;
+    align-items: end;
+    cursor: pointer;
+    align-items: center;
+} 
+.ritesh-company-logo i{
+    margin-right: 7px;
+    color: #1290a4;
+}
+
+.ritesh-company-logo h3::first-letter{
+    color: #1290a4;
+}
+
+nav #menu-list{
+    width: auto;
+    height: auto;
+    transition: 500ms ease-in-out;
+}
+nav #menu-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(68, 66, 66);
+}
+
+nav #menu-list #navbar-close-div{
+    display: none;
+    /* background-color: cyan; */
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+nav #menu-list #navbarCloseToggle{
+    font-size: 2rem;
+    font-weight: 500;
+    border: 2px solid black;
+    padding: 1px 3px;
+    border-radius: 5px;
+    transition: 400ms ease-in-out;
+}
+nav #menu-list #navbarCloseToggle:hover{
+    box-shadow: 5px 5px 6px gray;
+}
+
+nav #menu-list ul li{
+    cursor: pointer;
+}
+nav #menu-list ul li:hover{
+    color: #1290a4;
+}
+
+nav #nav-right-side{
+    transition: 900ms ease-in-out;
+}
+
+nav #nav-right-side > a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+    margin-right: 20px;
+}
+nav #nav-right-side > a:hover{
+    color: #1290a4;
+}
+
+nav #nav-right-side > button{
+    font-size: 16px;
+    padding: 8px 20px;
+    font-weight: 400;
+    background-color: #1290a4;
+    color: azure;
+    border: none;
+    border-radius: 3px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+
+
+
+/* Styling First Component */
+#live-chat-support{
+    display: flex;
+    padding: 50px 300px;
+}
+#live-chat-support > div:nth-child(1){ 
+    width: 50%;
+}
+#live-chat-support > div:nth-child(1) h1{
+    font-size: 50px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+#live-chat-support > div:nth-child(1) p{
+    margin-top: 15px;
+    font-family: "Noto Sans", sans-serif;
+}
+#live-chat-support > div:nth-child(1) > p{
+    margin-bottom: 40px;
+    color: #222f3f;
+    font-size: 21px;
+    line-height: 36px;
+}
+
+#live-chat-support > div:nth-child(2){
+    width: 50%;
+    background-size: cover;
+    
+}
+#live-chat-support > div:nth-child(2) img{
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    
+}
+
+
+/* Styling Form */
+form input[type="email"]{
+    background-color: aliceblue;
+    padding: 18px 15px;
+    width: 56%;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+form input[type="email"]:focus{
+    outline: none;
+}
+form input[type="submit"]{
+    background-color: #1290a4;
+    padding: 18px 15px;
+    width: 180px;
+    border-radius: 3px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: aliceblue;
+    cursor: pointer;
+}
+form p{
+    color: #878b90;
+    font-size: 17px;
+}
+form p a{
+    text-decoration: none;
+    color: lightseagreen;
+}
+form p a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+/* Styling Second Component */
+#mark-your-next-step{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#mark-your-next-step img{
+    transform: translateY(15px);
+}
+#mark-your-next-step2{
+    background-color: #eef4f5;
+    height: 100%;
+    width: 100%;
+    padding: 90px 150px;
+    font-family: "Noto Sans", sans-serif;
+    overflow: hidden;
+}
+#mark-your-next-step2 h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+
+#cards{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: white;
+    height: auto;
+    width: 300px;
+    padding: 25px 25px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: .5s ;
+    margin: 20px 20px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+}
+
+.card > div{
+    background-color: rgb(240, 219, 223);
+    width: 70px;
+    height: 70px;
+    padding: 20px 20px;
+    border-radius: 50px;
+    display: flex; 
+    cursor: pointer;
+}
+.card > div:hover{
+    background-color: pink;
+}
+
+.card > h2{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.card > p{
+   margin-bottom: 25px;
+   color: rgb(68, 66, 66); 
+}
+.card > a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #1290a4;
+}
+
+/* Styling Third Component */
+#third-component{
+    width: 100%;
+    height: auto;
+    display : flex;
+    padding: 100px 300px;
+    gap: 100px;
+}
+
+#third-component div:nth-child(1){
+    width: 40%;
+}
+#third-component div:nth-child(2){
+    width: 60%;
+    /* background-color: aqua; */
+    /* margin-top: 100px; */
+    /* padding: 0px 30px; */
+   
+}
+
+#third-component div:nth-child(2) h1{
+    margin-top: 70px;
+    font-size: 45px;
+    font-family: "Noto Sans", sans-serif;
+    /* line-height: 50px; */
+    font-weight: 700;
+}
+
+#third-component div:nth-child(2) p{
+    color: #222f3f;
+    font-size: 21px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#third-component div:nth-child(2) a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #1290a4;
+}
+
+
+
+/* Forth Component */
+#forth-component{
+    width: 100%;
+    height: auto;
+    display : flex;
+    padding: 100px 300px;
+    gap: 100px;
+    
+}
+#forth-component div:nth-child(1){
+    width: 60%;
+    padding: 0px 30px;
+}
+#forth-component div:nth-child(2){
+    width: 40%;
+}
+
+#forth-component div:nth-child(1) h1{
+    /* margin-top: 70px; */
+    font-size: 45px;
+    font-family: "Noto Sans", sans-serif;
+    /* line-height: 50px; */
+    font-weight: 700;
+}
+#forth-component div:nth-child(1) p{
+    color: #222f3f;
+    font-size: 21px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+#forth-component div:nth-child(1) ul{
+    color: #222f3f;
+    font-size: 21px;
+    list-style: none;
+    font-family: "Noto Sans", sans-serif;
+}
+
+#forth-component div:nth-child(1) ul i{
+   margin-right: 10px;
+   color: #1290a4;
+   font-size: 23px;
+}
+
+
+/* Styling Fifth Component */
+#fifth-component{
+    width: 100%;
+    height: auto;
+    display : flex;
+    padding: 100px 300px;
+    gap: 100px;
+    
+}
+#fifth-component div:nth-child(2){
+    width: 60%;
+    padding: 0px 30px;
+}
+#fifth-component div:nth-child(1){
+    width: 40%;
+}
+
+#fifth-component div:nth-child(2) h1{
+    /* margin-top: 70px; */
+    font-size: 45px;
+    font-family: "Noto Sans", sans-serif;
+    /* line-height: 50px; */
+    font-weight: 700;
+}
+#fifth-component div:nth-child(2) p{
+    color: #222f3f;
+    font-size: 21px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Noto Sans", sans-serif;
+}
+#fifth-component div:nth-child(2) hr{
+    /* color: #222f3f; */
+    border: 1.2px solid rgb(201, 198, 198);    
+}
+#fifth-component div:nth-child(2) p:nth-child(4){
+   font-size: 17px;
+   color: #5d5e60;
+    
+}
+
+#fifth-component div:nth-child(2) button{
+    background-color: lightcoral;
+    padding: 18px 15px;
+    width: 180px;
+    border-radius: 3px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+/* Styling Pricing Section */
+
+#pricing-section {
+    width: 100%;
+    /* height: 170%; */
+    height: auto;
+    /* background-color: #30393B; */
+    
+}
+#pricing-section-img{
+    width: 100%;
+    background-image: url(https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f0a3b10fda6701e9ee6534a_asset%207.svg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pricing-sec-background-col-div{
+    background-color: #30393B;
+}
+#heading-of-pricing-section{
+    padding: 10px 500px;
+    color: aliceblue;
+}
+#pricing-section div:nth-child(2) h1{
+    font-family: "Noto Sans", sans-serif;
+}
+#pricing-section div:nth-child(2) p{
+    font-family: "Noto Sans", sans-serif;
+}
+
+#heading-of-pricing-section p{
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: gray;
+}
+#heading-of-pricing-section h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+
+#pricing-cards{
+    width: 100%;
+    height: 100%;
+    background-color: #30393B;
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+}
+
+.pricing-card{
+    height: 55vh;
+    width: 24%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px 50px;
+    margin-right: 50px;
+}
+
+.pricing-card:nth-child(2){
+    border-top: 6px solid lightcoral;
+}
+
+.pricing-card div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.pricing-card div h4{
+    color: #5d5e60c1;
+    text-transform: uppercase;
+    font-size: 0.75vw;
+}
+.pricing-card div button{
+    padding: .40vh 0.60vw;
+    background-color: lightcoral;
+    font-size: .60vw;
+    font-weight: 600;
+    border-radius: 2vw;
+    border: none;
+    cursor: pointer;
+    color: #eef4f5;
+}
+
+.pricing-card h2{
+    font-size: 50px;
+    margin-top: 15px;
+}
+.pricing-card h2 span:nth-child(1){
+    font-size: 29px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -13px;
+    left: -5px;
+}
+.pricing-card h2 span:nth-child(2){
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pricing-card p{
+    margin-top: 1vh;
+    font-size: .75vw;
+    color: rgba(0, 0, 0, 0.815);
+}
+
+.pricing-card ul{
+    list-style: none;
+    margin-top: 3.50vh;
+    font-size: 1vw;
+}
+.pricing-card ul li{
+    margin-bottom: 2vh;
+}
+
+.pricing-card ul i{
+    font-size: 1.25vw;
+    font-weight: 900;
+    color: #222f3f;
+    margin-right: .70vw;
+}
+
+.strike-features{
+    opacity: 0.5;
+}
+
+.pricing-card .pricing-trail-btn{
+    margin-top: 2vh;
+    font-size: 1vw;
+    font-weight: 700;
+    font-family: "Noto Sans", sans-serif;
+    padding: 1.2vh 1vw;
+    background-color: #1290a4;
+    color: #eef4f5;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.pricing-card .pricing-trail-btn:hover{
+    background-color: steelblue;
+    transition: all 0.2s ease;
+}
+
+#last-of-pricing{
+    background-color: #30393B;
+    padding-bottom: 12vh;
+
+}
+.pricing-sec-background-col-div #last-of-pricing p{
+    color: gray;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.pricing-sec-background-col-div #last-of-pricing p a{
+    text-decoration: none;
+    color: #eef4f5;
+    margin-left: 0.20vw;
+    font-weight: 600;
+}
+.pricing-sec-background-col-div #last-of-pricing p a:hover{
+    text-decoration: dashed;
+}
+
+
+
+
+/* Styling Seventh Component */
+#news-letter{
+    width: 100%;
+    height: 600px;
+    /* background-color: #1290a4; */
+    padding: 100px 300px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Noto Sans",sans-serif;
+}
+
+#news-letter > div{
+    width: 47vw;
+}
+#news-letter > div p{
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: gray;
+}
+#news-letter > div h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+
+#news-letter .news-letter-second-part{
+    width: 32vw;
+    
+    
+}
+#news-letter .news-letter-second-part p{
+    font-size: 0.80vw;
+    
+}
+
+
+
+/* Styling Footer Component */
+footer{
+    width: auto;
+    height: 40vh;
+    /* background-color: #1290a4; */
+    margin: 0vh 10vw;
+    border-top: 1.5px solid rgba(0, 0, 0, 0.26);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 5vh;
+    font-family: "Noto Sans", sans-serif;
+}
+
+footer > div:nth-child(1){
+    display: flex;
+    height: 30vh;
+    justify-content: space-between;
+    /* background-color: #1290a4; */
+}
+footer > div:nth-child(1) h5{
+    font-weight: 800;
+    color: #222f3faf;
+}
+footer > div:nth-child(1) ul{
+    font-size: .85vw;
+    font-weight: 600;
+    list-style: none;
+    margin-top: 6vh;
+}
+footer > div:nth-child(1) ul li{
+    margin-top: 1.80vh;
+    cursor: pointer;
+}
+footer > div:nth-child(1) ul li:hover{
+    color: #1290a4;
+}
+
+#company-foot{
+    width: 25%;
+}
+#company-foot p{
+    margin-top: 4vh;
+    font-size: .85vw;
+    font-weight: 500;
+    line-height: 3.0vh;
+    color: #222f3fa4;
+}
+#company-foot #links-icon{
+    margin-top: 4vh;
+}
+#company-foot #links-icon i{
+    font-size: 1.20vw;
+    margin-right: 0.88vw;
+    cursor: pointer;
+}
+
+#author-name{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #1290a4; */
+}
+.dev-name{
+    color: #1290a4;
+}
+
+
+#links-icon > i:hover{
+    color: #1290a4;
+}
